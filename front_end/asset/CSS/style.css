@@ -4,15 +4,22 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* .banner {
+header {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/lady.jpg) linear-gradient (rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-    background-blend-mode: overlay;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url('../img/lady.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-} */
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+}
 
 .navbar {
     width: 85%;
@@ -24,8 +31,10 @@
 }
 
 .logo {
-    width: 120px;
+    width: 180px;
+    height: 50px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .navbar ul li {
@@ -44,25 +53,14 @@
     transition: 0.5;
 }
 
-/*
-    navbar ul li::after? content:
-    height: 3px;
-    width: 100%;
-    background: #009688; position: absolute;
-    bottom: 0%;
-    left: 0%;
-    transition: 0.55;
-    7 */
-
-.navbar ul li a:hover {
-    border-bottom: 3px solid #009688;
+div ul li a:hover {
+    border-bottom: 3px solid #ff00d4;
 }
 
 .content {
     width: 100%;
     position: absolute;
-    top: 50%;
-    transform: translateY (-50%);
+    top: 45%;
     text-align: center;
     color: #fff;
 }
@@ -79,29 +77,19 @@ content h1 {
 }
 
 .button {
-    width: 200px;
+    width: 16rem;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 25px 10px;
     border-radius: 25px;
+    font-size: 20px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #ff00d4;
     background: transparent;
     color: #fff;
     cursor: pointer;
 }
 
-/* position: relative;
-    * /
-    }
-    
-    /* .span{
-    background: #009688;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0; z-index: -1;
-    transition: 0.5s;
-    } */
+.button:hover{
+    background-color: #ff00d4;
+}
