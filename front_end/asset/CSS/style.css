@@ -4,10 +4,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+main {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url('../img/lady.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/lady.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,4 +92,37 @@ content h1 {
 
 .button:hover{
     background-color: #ff00d4;
+}
+
+form{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#registration{
+    padding: 4rem 36% 0 36%;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.checkbox{
+    width: 15px;
+}
+
+a button{
+    color: #fff;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    margin: 15px 0;
+    cursor: pointer;
+    background-color: #ff00d4;
+    border: none;
+    border-radius: 25px;
 }
