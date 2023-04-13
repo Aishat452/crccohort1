@@ -24,20 +24,44 @@
         </div>
         <!-- Nav End -->
         <!-- Form Start -->
-         <section id="registration">
+        <section id="registration">
             <form action="" id="register" class="input-login">
-                <h2>Registration</h2>
-                <h3>Welcome! Kindly input your details</h3>
-                <input type="text" placeholder="Full Name"> <br>
-                <input type="email" placeholder="Email Address"> <br>
-                <input type="tel" placeholder="Phone Number"> <br>
-                <input type="password" placeholder="Password"> <br>
-                <input type="checkbox" class="checkbox">
-                <label for="">I agree to receive newsletters</label> <br>
+                <header>
+                    <h2>Registration</h2>
+                    <h3>Welcome! Kindly input your details</h3>
+                </header>
+                <section id="formsec">
+                    <ul>
+                        <li>
+                            <label for="fname">Full Name:</label> <br>
+                            <input type="text" name="full_name" max="30" id="fname" required>
+                        </li>
+                        <li>
+                            <label for="your_age">Age:</label> <br>
+                            <input type="date" name="age" id="your_age" max="2023-01-01" min="1999-01-01" required>
+                        </li>
+                        <li>
+                            <label for="mail">Email Address:</label> <br>
+                            <input type="email" name="email_address" id="mail" required>
+                        </li>
+                        <li>
+                            <label for="phoneNumber">Phone Number:</label> <br>
+                            <input type="tel" name="phone_number" id="phoneNumber" required>
+                        </li>
+                        <li>
+                            <label for="password">Password:</label> <br>
+                            <input type="password" name="pass" id="password">
+                        </li>
+                        <li>
+                            <input type="checkbox" class="checkbox" name="newsletters">
+                            <label for="check">I agree to receive newsletters</label> <br>
+                        </li>
+                    </ul>
+                </section>
                 <a href="#"><button>Submit</button></a>
             </form>
-         </section>
-        
+        </section>
+
 
         <!-- Form Ends -->
     </main>
