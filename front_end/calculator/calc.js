@@ -1,3 +1,4 @@
+//Adding Functionalities
 const display = document.querySelector('.display');
 const buttons = document.querySelectorAll('.button');
 let operand1 = null;
